@@ -1,0 +1,36 @@
+
+
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Pacifico&display=swap');
+
+:root {
+    --secondary-color: #{$secondary-color};  // 2. Custom Property
+  }
+
+@function set-text-color($color) { // 7. function
+    @if(lightness($color) >100) {
+        @return  black;
+    }
+    @else {                     //if  else Extra Feature 4
+        @return white;
+    }
+}
+
+@mixin Banner() //6. Mixin
+{
+color: white;
+text-align: center;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 5em;
+
+}
+
+
+%fonts
+{
+    font-family: 'Gabarito', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
