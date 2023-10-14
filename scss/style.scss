@@ -45,7 +45,7 @@ body {
 
 .showcase {
     color:set-text-color(black);
-    background-image:url(/images/sky-clouds-4k.jpg);
+    background-image:url("../images/sky-clouds-4k.jpg");
     height: 100dvh;
 
 
@@ -122,7 +122,7 @@ body {
 
     #KnowMore {
         height: 100dvh;
-        background-image:url(/images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg);
+        background-image:url("../images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg");
 
         .Heading
         {
@@ -182,7 +182,7 @@ body {
     
     .startup-ideas {
         height: 100dvh;
-        background-image:url(/images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg);
+        background-image:url("../images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg");
 
     }
     .Heading1
@@ -279,7 +279,7 @@ body {
     text-align: center;
     padding: 20px;
     margin: 0;
-    background-image: url(/images/FormBg.jpeg);
+    background-image: url("../images/FormBg.jpeg");
 }
 
 textarea {
